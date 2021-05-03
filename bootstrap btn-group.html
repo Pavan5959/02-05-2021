@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Button Group</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+  <div class="conatiner-fluid btn-group">
+ <button class="btn btn-primary">Button1</button>
+ <button class="btn btn-success">Button2</button>
+ <button class="btn btn-warning">Button3</button>
+ <button class="btn btn-danger">Button4</button>
+  </div><br><br>
+  <!--To increase and decrease the size-->
+  <div class="conatiner-fluid btn-group-lg">
+    <button class="btn btn-primary">Button1</button>
+    <button class="btn btn-success">Button2</button>
+    <button class="btn btn-warning">Button3</button>
+    <button class="btn btn-danger">Button4</button>
+  </div><br>
+  <div class="conatiner-fluid btn-group-sm">
+    <button class="btn btn-primary">Button1</button>
+    <button class="btn btn-success">Button2</button>
+    <button class="btn btn-warning">Button3</button>
+    <button class="btn btn-danger">Button4</button>
+  </div><br>
+  <!--to use vertical type buttons-->
+  <div class="btn-group-vertical">
+    <button class="btn btn-primary">Button1</button>
+    <button class="btn btn-success">Button2</button>
+    <button class="btn btn-warning">Button3</button>
+    <button class="btn btn-danger">Button4</button>
+  </div><br>
+  <!--Button Groups are nested-->
+  <div class="btn-group btn-group-lg">
+      <button type="button" class="btn btn-primary">Button</button>
+      <div class="btn-group">
+        <button type="button" class="btn btn-success">Button</button>
+      </div>
+      <!--Using Dropdown-->
+      <div class="btn-group btn-group-lg">
+        <button type="button" class="btn btn-primary ">Home</button>
+        <div class="btn-group">
+            <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">About</button>
+            <div class="dropdown-menu">
+               <button class="dropdown-item">More</button>
+               <button type="button" class="dropdown-item">Services</button>
+            </div>
+           </div>
+      </div>
+    </div><br><br><br>
+           <!--creating link type using droplist-->
+       <div class="btn-group-vertical">
+        <h2>using droplsit of Link</h2>
+           <a href="#" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Link</a>
+           <div class="dropdown-menu">
+              <a href="#" class="btn-primary dropdown-item">Movies</a>
+              <a href="#" class="btn-success dropdown-item">Tours</a>
+              <a href="#" class="btn-warning dropdown-item">Trucking</a>
+           </div>
+       </div>
+       
+  
+</html>
